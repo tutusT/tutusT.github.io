@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  color: #79807f;
+  font-family: $rR, sans-serif;
+}
+
+img {
+  font-size: 0;
+  line-height: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.btn {
+  cursor: pointer;
+}

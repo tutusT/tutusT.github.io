@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" id="bx-mail-send" width="27.695" height="22.156" viewBox="0 0 27.695 22.156">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="Path_2151" d="M26.156 4H6.769A2.772 2.772 0 0 0 4 6.769v6.924h2.769V9.539l8.862 6.647a1.385 1.385 0 0 0 1.662 0l8.862-6.647V22H15.078v2.769h11.078A2.772 2.772 0 0 0 28.925 22V6.769A2.772 2.772 0 0 0 26.156 4zm-9.693 9.347L7.692 6.769h17.542z" class="cls-1" transform="translate(-1.231 -4)"/>
+    <path id="Path_2152" d="M2 12h9.693v2.769H2zm2.769 4.154h8.308v2.769H4.769zm4.154 4.154h5.539v2.769H8.924z" class="cls-1" transform="translate(-2 -.922)"/>
+</svg>
