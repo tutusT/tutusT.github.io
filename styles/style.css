@@ -587,12 +587,6 @@ body {
   font: 16px "robotobold", sans-serif;
 }
 
-@media (max-width: 610px) {
-  .content_info-list {
-    margin-bottom: 24px;
-  }
-}
-
 .content_info-item {
   display: -webkit-box;
   display: -ms-flexbox;
