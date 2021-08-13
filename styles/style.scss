@@ -153,9 +153,6 @@ body {
     border-bottom: solid 1px #d9dadc;
     line-height: 1.9px;
     font: 16px $rB, sans-serif;
-    @media (max-width: 610px) {
-      margin-bottom: 24px;
-    }
   }
 
   // .content_info-item
