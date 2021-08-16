@@ -233,7 +233,7 @@ body {
 
   // .footer_input
   &_input {
-    // При отображении кнопок: max-width: 281px;
+    max-width: 281px;
     border-radius: 5px;
     border: solid 1px #79807f;
     background: #fff;
@@ -244,11 +244,12 @@ body {
     color: #79807f;
     flex-grow: 1;
     margin: 0 10px;
+    display: none !important; //Убираем если хотим отобразить поле
     @media (max-width: 610px) {
-      // При отображении кнопок: width: 100%;
+      width: 100%;
       display: block;
       margin: 0;
-      // При отображении кнопок: max-width: none;
+      max-width: none;
       margin-bottom: 15px;
     }
   }

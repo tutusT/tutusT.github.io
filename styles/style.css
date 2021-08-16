@@ -702,6 +702,7 @@ body {
 }
 
 .footer_input {
+  max-width: 281px;
   border-radius: 5px;
   border: solid 1px #79807f;
   background: #fff;
@@ -714,12 +715,15 @@ body {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0 10px;
+  display: none !important;
 }
 
 @media (max-width: 610px) {
   .footer_input {
+    width: 100%;
     display: block;
     margin: 0;
+    max-width: none;
     margin-bottom: 15px;
   }
 }
