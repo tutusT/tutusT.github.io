@@ -652,7 +652,7 @@ body {
   margin-bottom: 0;
 }
 
-.content_item-value {
+.content_info-value {
   color: #292929;
 }
 
@@ -702,7 +702,6 @@ body {
 }
 
 .footer_input {
-  max-width: 281px;
   border-radius: 5px;
   border: solid 1px #79807f;
   background: #fff;
@@ -719,10 +718,8 @@ body {
 
 @media (max-width: 610px) {
   .footer_input {
-    width: 100%;
     display: block;
     margin: 0;
-    max-width: none;
     margin-bottom: 15px;
   }
 }
@@ -743,6 +740,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  display: none;
 }
 
 @media (max-width: 610px) {

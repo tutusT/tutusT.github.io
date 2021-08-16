@@ -194,7 +194,7 @@ body {
   }
 
   // .content_info-value
-  &_item-value {
+  &_info-value {
     color: #292929;
   }
 
@@ -233,7 +233,7 @@ body {
 
   // .footer_input
   &_input {
-    max-width: 281px;
+    // При отображении кнопок: max-width: 281px;
     border-radius: 5px;
     border: solid 1px #79807f;
     background: #fff;
@@ -245,10 +245,10 @@ body {
     flex-grow: 1;
     margin: 0 10px;
     @media (max-width: 610px) {
-      width: 100%;
+      // При отображении кнопок: width: 100%;
       display: block;
       margin: 0;
-      max-width: none;
+      // При отображении кнопок: max-width: none;
       margin-bottom: 15px;
     }
   }
@@ -266,7 +266,7 @@ body {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
-
+  display: none;
   @media (max-width: 610px) {
     flex-grow: 1;
     width: auto;
